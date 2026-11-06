@@ -75,7 +75,7 @@ La barra lateral enseña la hora, la clase en curso y un panel de **entregas pr�
 
 ## Instalación
 
-1. Descarga el instalador `Kurso Setup x.y.z.exe` de la [última versión](https://github.com/caastilloo/kurso/releases/latest).
+1. Descarga el instalador `Kurso-Setup-x.y.z.exe` de la [última versión](https://github.com/caastilloo/kurso/releases/latest).
 2. Ábrelo. Como el instalador no está firmado, Windows puede mostrar *"Windows protegió su PC"*: pulsa **Más información → Ejecutar de todas formas**.
 3. Al abrir Kurso por primera vez, conecta tu cuenta de Aules y la de Web Familia (o sáltate la que no uses).
 

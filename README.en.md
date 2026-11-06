@@ -77,7 +77,7 @@ The sidebar shows the time, the current class and an **upcoming deadlines** pane
 
 ## Installation
 
-1. Download `Kurso Setup x.y.z.exe` from the [latest release](https://github.com/caastilloo/kurso/releases/latest).
+1. Download `Kurso-Setup-x.y.z.exe` from the [latest release](https://github.com/caastilloo/kurso/releases/latest).
 2. Run it. The installer isn't code-signed, so Windows may show *"Windows protected your PC"*: click **More info → Run anyway**.
 3. The first time you open Kurso, connect your Aules and Web Familia accounts (or skip the one you don't use).
 
