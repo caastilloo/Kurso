@@ -28,12 +28,15 @@ The app itself is in Spanish, because it's built for Spanish vocational training
 
 ## Contents
 
+<div align="center">
+
 | Get to know Kurso | Use it | For developers |
 |---|---|---|
 | [Why it exists](#why-it-exists) | [Installation](#installation) | [How it works](#how-it-works) |
 | [What it does](#what-it-does) | [Try it without accounts](#try-it-without-accounts) | [Development](#development) |
-| [Limitations](#limitations) | [Privacy and security](#privacy-and-security) | [Credits](#credits) |
-| | [Disclaimer](#disclaimer) | |
+| [Limitations](#limitations) | [Disclaimer](#disclaimer) | [Credits](#credits) |
+
+</div>
 
 ## Why it exists
 

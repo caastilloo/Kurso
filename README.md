@@ -26,11 +26,15 @@
 
 ## Índice
 
+<div align="center">
+
 | Conocer Kurso | Usarlo | Para desarrolladores |
 |---|---|---|
 | [Por qué existe](#por-qué-existe) | [Instalación](#instalación) | [Cómo funciona por dentro](#cómo-funciona-por-dentro) |
 | [Qué hace](#qué-hace) | [Probarlo sin cuentas](#probarlo-sin-cuentas) | [Desarrollo](#desarrollo) |
 | [Limitaciones](#limitaciones) | [Aviso legal](#aviso-legal) | [Créditos](#créditos) |
+
+</div>
 
 ## Por qué existe
 
