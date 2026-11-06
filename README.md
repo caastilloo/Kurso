@@ -21,7 +21,6 @@
     <source srcset="https://github.com/caastilloo/Kurso/raw/main/docs/img/kurso-preview.avif" type="image/avif">
     <img src="docs/img/kurso-preview.webp" alt="Kurso en acción" width="900">
   </picture></a><br>
-  <a href="docs/video/kurso-promo.mp4"><b>Ver vídeo completo (42 s)</b></a>
 </p>
 
 ## Índice
