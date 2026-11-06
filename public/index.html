@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kurso</title>
+  <link rel="icon" href="logo/kurso-fondo-negro.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="welcome" id="welcome"></div>
+  <div class="shell" id="shell">
+    <aside class="sidebar">
+      <div class="side-head">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div class="brand-text">
+            <strong>Kurso</strong>
+          </div>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" type="button"></button>
+      </div>
+      <div class="side-clock" id="side-clock"></div>
+      <nav class="nav" aria-label="Módulos">
+        <a href="#faltas" data-nav="faltas" data-tip="Faltas" data-tip-narrow><span class="ico" data-icon="calendar"></span>Faltas<span class="nav-badge" id="faltas-badge" hidden></span></a>
+        <a href="#tareas" data-nav="tareas" data-tip="Tareas" data-tip-narrow><span class="ico" data-icon="list"></span>Tareas<span class="nav-badge" id="tasks-badge" hidden></span></a>
+        <a href="#notas" data-nav="notas" data-tip="Notas" data-tip-narrow><span class="ico" data-icon="cap"></span>Notas<span class="nav-badge" id="notas-badge" hidden></span></a>
+        <a href="#horario" data-nav="horario" data-tip="Horario" data-tip-narrow><span class="ico" data-icon="clock"></span>Horario</a>
+        <a href="#ajustes" data-nav="ajustes" data-tip="Ajustes" data-tip-narrow><span class="ico" data-icon="gear"></span>Ajustes</a>
+      </nav>
+      <div class="side-widgets">
+        <a class="side-link" id="side-now" href="#horario" aria-label="Ver el horario" hidden></a>
+        <section class="side-panel" id="side-task" aria-label="Entregas próximas" hidden></section>
+        <button class="side-task-btn" id="side-task-btn" type="button" aria-controls="side-task" aria-expanded="false" hidden>
+          <span>Entregas próximas</span>
+          <span class="side-task-count" id="side-task-count" hidden></span>
+          <span class="ico" data-icon="chevron"></span>
+        </button>
+      </div>
+    </aside>
+    <div class="sheet">
+      <div class="titlebar" aria-hidden="true"></div>
+      <main class="main" id="view" tabindex="-1"></main>
+    </div>
+  </div>
+  <dialog class="dialog" id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

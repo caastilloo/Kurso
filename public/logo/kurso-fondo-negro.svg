@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Kurso">
+  <rect width="48" height="48" rx="11" fill="#000"/>
+  <g fill="#fff">
+    <rect x="11" y="10" width="8" height="28" rx="1.2"/>
+    <path d="M17 21.5H19L29.5 10H39L19 31.5H17z"/>
+    <path d="M27.5 24.2L39.5 38H29.8L22.6 29.6z"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.env
+.respaldo/
+
+# Datos personales: Kurso los guarda en %LOCALAPPDATA%\Kurso, nunca aquí.
+# Estas reglas son una red de seguridad por si alguien prueba con KURSO_DATA dentro del proyecto.
+data.json
+data.json.*
+*.dpapi
+calificaciones-muestra.html

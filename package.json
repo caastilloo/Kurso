@@ -1,0 +1,74 @@
+{
+  "name": "kurso",
+  "productName": "Kurso",
+  "version": "3.6.1",
+  "private": true,
+  "description": "Faltas, tareas, notas y horario de tu ciclo de FP en una sola app de escritorio (Ítaca Web Familia y Aules).",
+  "author": "José Ramón Castillo Amat",
+  "license": "MIT",
+  "homepage": "https://github.com/caastilloo/kurso#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caastilloo/kurso.git"
+  },
+  "keywords": [
+    "electron",
+    "express",
+    "fp",
+    "daw",
+    "aules",
+    "moodle",
+    "itaca",
+    "web-familia",
+    "student",
+    "desktop-app"
+  ],
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "demo": "node scripts/demo.mjs",
+    "web": "node server.js",
+    "test": "node --test",
+    "dist": "electron-builder --win"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "electron": "^45.2.2",
+    "electron-builder": "^26.18.0",
+    "lucide-static": "^1.69.0"
+  },
+  "build": {
+    "appId": "es.josercastillo.kurso",
+    "productName": "Kurso",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "electron/**",
+      "server.js",
+      "src/**",
+      "public/**",
+      "build/icon.png",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Kurso"
+    }
+  }
+}
