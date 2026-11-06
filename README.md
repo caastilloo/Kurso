@@ -17,19 +17,21 @@
 </p>
 
 <p align="center">
-  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.webp" alt="Kurso en acción" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><picture>
+    <source srcset="https://github.com/caastilloo/Kurso/raw/main/docs/img/kurso-preview.avif" type="image/avif">
+    <img src="docs/img/kurso-preview.webp" alt="Kurso en acción" width="900">
+  </picture></a><br>
   <a href="docs/video/kurso-promo.mp4"><b>Ver vídeo completo (42 s)</b></a>
 </p>
 
 ## Índice
 
-| Usar Kurso | Por dentro |
-|---|---|
-| [Por qué existe](#por-qué-existe) | [Cómo funciona por dentro](#cómo-funciona-por-dentro) |
-| [Qué hace](#qué-hace) | [Desarrollo](#desarrollo) |
-| [Instalación](#instalación) | [Limitaciones](#limitaciones) |
-| [Probarlo sin cuentas](#probarlo-sin-cuentas) | [Aviso legal](#aviso-legal) |
-| [Privacidad y seguridad](#privacidad-y-seguridad) | [Créditos](#créditos) |
+| Conocer Kurso | Usarlo | Para desarrolladores |
+|---|---|---|
+| [Por qué existe](#por-qué-existe) | [Instalación](#instalación) | [Cómo funciona por dentro](#cómo-funciona-por-dentro) |
+| [Qué hace](#qué-hace) | [Probarlo sin cuentas](#probarlo-sin-cuentas) | [Desarrollo](#desarrollo) |
+| [Limitaciones](#limitaciones) | [Privacidad y seguridad](#privacidad-y-seguridad) | [Créditos](#créditos) |
+| | [Aviso legal](#aviso-legal) | |
 
 ## Por qué existe
 

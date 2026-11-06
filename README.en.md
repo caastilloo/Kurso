@@ -17,7 +17,10 @@
 </p>
 
 <p align="center">
-  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.webp" alt="Kurso in action" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><picture>
+    <source srcset="https://github.com/caastilloo/Kurso/raw/main/docs/img/kurso-preview.avif" type="image/avif">
+    <img src="docs/img/kurso-preview.webp" alt="Kurso in action" width="900">
+  </picture></a><br>
   <a href="docs/video/kurso-promo.mp4"><b>Watch the full video (42 s, in Spanish)</b></a>
 </p>
 
@@ -25,13 +28,12 @@ The app itself is in Spanish, because it's built for Spanish vocational training
 
 ## Contents
 
-| Using Kurso | Under the hood |
-|---|---|
-| [Why it exists](#why-it-exists) | [How it works](#how-it-works) |
-| [What it does](#what-it-does) | [Development](#development) |
-| [Installation](#installation) | [Limitations](#limitations) |
-| [Try it without accounts](#try-it-without-accounts) | [Disclaimer](#disclaimer) |
-| [Privacy and security](#privacy-and-security) | [Credits](#credits) |
+| Get to know Kurso | Use it | For developers |
+|---|---|---|
+| [Why it exists](#why-it-exists) | [Installation](#installation) | [How it works](#how-it-works) |
+| [What it does](#what-it-does) | [Try it without accounts](#try-it-without-accounts) | [Development](#development) |
+| [Limitations](#limitations) | [Privacy and security](#privacy-and-security) | [Credits](#credits) |
+| | [Disclaimer](#disclaimer) | |
 
 ## Why it exists
 
