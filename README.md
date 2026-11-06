@@ -30,8 +30,7 @@
 |---|---|---|
 | [Por qué existe](#por-qué-existe) | [Instalación](#instalación) | [Cómo funciona por dentro](#cómo-funciona-por-dentro) |
 | [Qué hace](#qué-hace) | [Probarlo sin cuentas](#probarlo-sin-cuentas) | [Desarrollo](#desarrollo) |
-| [Limitaciones](#limitaciones) | [Privacidad y seguridad](#privacidad-y-seguridad) | [Créditos](#créditos) |
-| | [Aviso legal](#aviso-legal) | |
+| [Limitaciones](#limitaciones) | [Aviso legal](#aviso-legal) | [Créditos](#créditos) |
 
 ## Por qué existe
 
