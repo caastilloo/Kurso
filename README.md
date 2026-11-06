@@ -17,22 +17,19 @@
 </p>
 
 <p align="center">
-  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.gif" alt="Kurso en acción" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.webp" alt="Kurso en acción" width="900"></a><br>
   <a href="docs/video/kurso-promo.mp4"><b>Ver vídeo completo (42 s)</b></a>
 </p>
 
 ## Índice
 
-- [Por qué existe](#por-qué-existe)
-- [Qué hace](#qué-hace)
-- [Instalación](#instalación)
-- [Probarlo sin cuentas](#probarlo-sin-cuentas)
-- [Privacidad y seguridad](#privacidad-y-seguridad)
-- [Cómo funciona por dentro](#cómo-funciona-por-dentro)
-- [Desarrollo](#desarrollo)
-- [Limitaciones](#limitaciones)
-- [Aviso legal](#aviso-legal)
-- [Créditos](#créditos)
+| Usar Kurso | Por dentro |
+|---|---|
+| [Por qué existe](#por-qué-existe) | [Cómo funciona por dentro](#cómo-funciona-por-dentro) |
+| [Qué hace](#qué-hace) | [Desarrollo](#desarrollo) |
+| [Instalación](#instalación) | [Limitaciones](#limitaciones) |
+| [Probarlo sin cuentas](#probarlo-sin-cuentas) | [Aviso legal](#aviso-legal) |
+| [Privacidad y seguridad](#privacidad-y-seguridad) | [Créditos](#créditos) |
 
 ## Por qué existe
 

@@ -17,26 +17,21 @@
 </p>
 
 <p align="center">
-  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.gif" alt="Kurso in action" width="900"></a><br>
-  <a href="docs/video/kurso-promo.mp4"><b>▶ Watch the full video (42 s, in Spanish)</b></a>
+  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.webp" alt="Kurso in action" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><b>Watch the full video (42 s, in Spanish)</b></a>
 </p>
-
-> **Finished project.** Kurso does what I needed and I don't plan to keep extending it. The code is free (MIT): if you want to adapt it to your school or give it your own style, fork it.
 
 The app itself is in Spanish, because it's built for Spanish vocational training (FP) students.
 
 ## Contents
 
-- [Why it exists](#why-it-exists)
-- [What it does](#what-it-does)
-- [Installation](#installation)
-- [Try it without accounts](#try-it-without-accounts)
-- [Privacy and security](#privacy-and-security)
-- [How it works](#how-it-works)
-- [Development](#development)
-- [Limitations](#limitations)
-- [Disclaimer](#disclaimer)
-- [Credits](#credits)
+| Using Kurso | Under the hood |
+|---|---|
+| [Why it exists](#why-it-exists) | [How it works](#how-it-works) |
+| [What it does](#what-it-does) | [Development](#development) |
+| [Installation](#installation) | [Limitations](#limitations) |
+| [Try it without accounts](#try-it-without-accounts) | [Disclaimer](#disclaimer) |
+| [Privacy and security](#privacy-and-security) | [Credits](#credits) |
 
 ## Why it exists
 
@@ -104,19 +99,6 @@ npm run demo
 
 ## How it works
 
-```
-┌────────────────────────── Electron ───────────────────────────┐
-│  Window (Chromium, sandboxed)  ←──HTTP──→  Express server      │
-│  public/: HTML + CSS + JS, no                 127.0.0.1         │
-│  frameworks, no build step                   server.js + src/   │
-└────────────────────────────────────────────────┬───────────────┘
-                                                 │ HTTPS
-                     ┌───────────────────────────┴───────────────┐
-                     │ Aules (Moodle)          Web Familia (Ítaca)│
-                     │ mobile app API          HTML pages         │
-                     └────────────────────────────────────────────┘
-```
-
 | Part | What it does |
 |---|---|
 | `electron/` | Desktop window. Starts the server in the same process, opens external links in the browser and denies permissions it doesn't need. |
@@ -172,7 +154,3 @@ Kurso is a personal project and **not an official app**. It is not affiliated wi
 
 - Design inspired by [shadcn/ui](https://ui.shadcn.com/).
 - Icons by [Lucide](https://lucide.dev/) (ISC) and the [Geist](https://vercel.com/font) typeface (SIL Open Font License).
-
-Made by **José Ramón Castillo Amat** ([@caastilloo](https://github.com/caastilloo)) during his second year of Web Application Development.
-
-[MIT](LICENSE) licensed.
