@@ -43,6 +43,8 @@ En un ciclo formativo, si faltas al 15 % de las horas de un módulo pierdes la e
 ### Faltas
 Lee tus faltas de Web Familia y calcula, asignatura por asignatura, cuántas horas llevas y **cuántas puedes faltar todavía** sin llegar al límite. Avisa cuando una se acerca al límite, distingue faltas justificadas y retrasos (y te deja decidir si cuentan), y permite añadir faltas a mano.
 
+<p align="center"><img src="docs/img/faltas.png" alt="Faltas" width="820"></p>
+
 ### Tareas
 Trae las entregas de todos tus cursos de Aules: pendientes, vencidas que aún admiten entrega y entregadas con su nota. Las agrupa por meses, se pueden buscar, filtrar por asignatura y ocultar. Cada tarea abre su página de Aules en el navegador.
 

@@ -47,6 +47,8 @@ In a Spanish vocational course (FP), missing 15% of a module's hours means losin
 ### Absences
 Reads your absences from Web Familia and works out, module by module, how many hours you've missed and **how many more you can miss** before reaching the limit. It warns you when one is getting close, tells excused absences and late arrivals apart (and lets you decide whether they count), and lets you add absences by hand.
 
+<p align="center"><img src="docs/img/faltas.png" alt="Absences" width="820"></p>
+
 ### Assignments
 Brings in the assignments from all your Aules courses: pending, overdue but still open, and submitted with their grade. They're grouped by month and can be searched, filtered by module and hidden. Each one opens its Aules page in your browser.
 
