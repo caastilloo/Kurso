@@ -17,7 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="docs/img/faltas.png" alt="Kurso absences screen" width="900">
+  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.gif" alt="Kurso in action" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><b>▶ Watch the full video (42 s, in Spanish)</b></a>
 </p>
 
 > **Finished project.** Kurso does what I needed and I don't plan to keep extending it. The code is free (MIT): if you want to adapt it to your school or give it your own style, fork it.

@@ -1,0 +1,6 @@
+# Saltos de línea iguales en todos los sistemas; las imágenes, fuentes y vídeos, tal cual.
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.mp4 binary
+*.woff2 binary

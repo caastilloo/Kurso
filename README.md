@@ -17,7 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="docs/img/faltas.png" alt="Pantalla de faltas de Kurso" width="900">
+  <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.gif" alt="Kurso en acción" width="900"></a><br>
+  <a href="docs/video/kurso-promo.mp4"><b>▶ Ver el vídeo completo (42 s)</b></a>
 </p>
 
 > **Proyecto terminado.** Kurso cubre lo que necesitaba y no tengo previsto seguir ampliándolo. El código es libre (MIT): si quieres adaptarlo a tu centro o darle tu estilo, haz un fork.
