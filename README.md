@@ -18,10 +18,8 @@
 
 <p align="center">
   <a href="docs/video/kurso-promo.mp4"><img src="docs/img/kurso-preview.gif" alt="Kurso en acción" width="900"></a><br>
-  <a href="docs/video/kurso-promo.mp4"><b>▶ Ver el vídeo completo (42 s)</b></a>
+  <a href="docs/video/kurso-promo.mp4"><b>Ver vídeo completo (42 s)</b></a>
 </p>
-
-> **Proyecto terminado.** Kurso cubre lo que necesitaba y no tengo previsto seguir ampliándolo. El código es libre (MIT): si quieres adaptarlo a tu centro o darle tu estilo, haz un fork.
 
 ## Índice
 
@@ -100,19 +98,6 @@ npm run demo
 
 ## Cómo funciona por dentro
 
-```
-┌────────────────────────── Electron ───────────────────────────┐
-│  Ventana (Chromium, sandbox)  ←──HTTP──→  Servidor Express     │
-│  public/: HTML + CSS + JS sin                 127.0.0.1         │
-│  frameworks ni compilación                   server.js + src/   │
-└────────────────────────────────────────────────┬───────────────┘
-                                                 │ HTTPS
-                     ┌───────────────────────────┴───────────────┐
-                     │ Aules (Moodle)          Web Familia (Ítaca)│
-                     │ API de la app móvil     páginas HTML       │
-                     └────────────────────────────────────────────┘
-```
-
 | Pieza | Qué hace |
 |---|---|
 | `electron/` | Ventana de escritorio. Arranca el servidor dentro del mismo proceso, abre los enlaces externos en el navegador y deniega permisos que no necesita. |
@@ -168,7 +153,3 @@ Kurso es un proyecto personal y **no es una aplicación oficial**. No está rela
 
 - Diseño inspirado en [shadcn/ui](https://ui.shadcn.com/).
 - Iconos de [Lucide](https://lucide.dev/) (ISC) y tipografía [Geist](https://vercel.com/font) (SIL Open Font License).
-
-Hecho por **José Ramón Castillo Amat** ([@caastilloo](https://github.com/caastilloo)) durante 2º de Desarrollo de Aplicaciones Web.
-
-Licencia [MIT](LICENSE).
